@@ -1,0 +1,22 @@
+name: appwrite_oath
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  appwrite: ^9.0.1
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.3.6
+  go_router: ^10.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
